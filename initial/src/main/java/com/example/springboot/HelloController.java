@@ -11,7 +11,7 @@ public class HelloController {
 	@GetMapping("/")
 	public Map<String, String> index() {
 		HashMap<String, String> map = new HashMap<>();
-		map.put("message", "Endpoint hit!");
+		map.put("message", "Endpoint hit! (SpringBoot)");
 		return map;
 	}
 
